@@ -11,12 +11,12 @@ const CONTROL_TYPE = "react";
  * @param properties
  */
 export function track(componentName: string, properties: any = {}): void {
-  const telemetry = PnPTelemetry.getInstance();
-  telemetry.trackEvent(componentName, {
-    version,
-    controlType: CONTROL_TYPE,
-    debug: DEBUG ? "true" : "false",
-    environment: EnvironmentType[Environment.type],
-    ...properties
-  });
+  // const telemetry = PnPTelemetry.getInstance();
+  // telemetry.trackEvent(componentName, {
+  //   version,
+  //   controlType: CONTROL_TYPE,
+  //   debug: DEBUG ? "true" : "false",
+  //   environment: EnvironmentType[Environment.type],
+  //   ...properties
+  // });
 }

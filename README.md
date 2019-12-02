@@ -1,5 +1,8 @@
 ![SharePoint Patterns and Practices](https://devofficecdn.azureedge.net/media/Default/PnP/sppnp.png)
 
+# Fork
+Simple fork that disables telemetry.
+
 # SharePoint Framework React Controls
 
 This is a open source library that shares a set of reusable React control that can be used in your SharePoint Framework solutions.
