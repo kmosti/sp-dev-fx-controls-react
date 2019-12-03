@@ -1,7 +1,18 @@
 ![SharePoint Patterns and Practices](https://devofficecdn.azureedge.net/media/Default/PnP/sppnp.png)
 
 # Fork
-Simple fork that disables telemetry.
+This fork was made in order to disable telemetry.
+I am sure the reasons for gathering the telemetry is well intended, however it leaks data so there you go.
+
+# How to replace the npm package with this repository
+
+Simply modify your package.json with:
+
+```bash
+"@pnp/spfx-controls-react": "git+https://github.com/kmosti/sp-dev-fx-controls-react.git"
+```
+
+Then run npm install.
 
 # SharePoint Framework React Controls
 
